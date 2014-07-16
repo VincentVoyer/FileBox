@@ -4,5 +4,17 @@
     <string name="app_name">filebox</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="title_activity_login">Connection</string>
+    <string name="titleLoginView">File Box</string>
+    <string name="labelConnexionButton">Connexion</string>
+    <string name="title_file_list">Files</string>
+    <string name="title_file_detail">File Detail</string>
+	
+    
+    <string name="fileName">File Name</string>
+    <string name="fileDate">date</string>
+    <string name="descSuivant">suivant</string>
+    <string name="open">Open</string>
+    <string name="isfolder">isfolder</string>
+    <string name="imgViewDetail">ImageView Detail</string>
 </resources>

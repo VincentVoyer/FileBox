@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+	
+        <ImageView
+            android:id="@+id/isFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/isfolder"
+            android:gravity="center_vertical"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/fileNameList"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:text="@string/fileName"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="20sp"
+            android:gravity="center"
+             />
+
+</LinearLayout>
